@@ -4,7 +4,11 @@ for (let i=0;i<l.length;i++){
   txtArray.push(l[i].textContent)
   l[i].textContent = ""
 }
-setTimeout(startTyping,300);
+
+window.addEventListener("load", (e) =>{
+  setTimeout(startTyping,300);
+})
+
 function startTyping(){
   for (let i=0;i<txtArray.length;i++){
     type(l[i],txtArray[i],0)
@@ -24,6 +28,7 @@ function output(e){
   window.out.style.opacity = 1;
   window.endCMD.classList.add("cursor");
 }
+/**
 let dim = document.getElementsByClassName("dimmed")
 for (let wrapper of dim){
   let i = 0.7;
@@ -34,3 +39,4 @@ for (let wrapper of dim){
     }
   }
 }
+**/
