@@ -3,4 +3,7 @@
 	url = https://www.github.com/kevindnf/hackTheGame
 [submodule "startpage"]
 	path = startpage
-	url = https://www.github.com/kevindnf/startpage
+    url = https://www.github.com/kevindnf/startpage
+[submodule "startpage-2018"]
+	path = startpage2018
+	url = https://www.github.com/kevindnf/startpage-2018
