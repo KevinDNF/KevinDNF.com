@@ -1,0 +1,10 @@
+.Scroll__Indicator a {
+    color: rgba(255, 98, 185, 0.973);
+    text-decoration: none;
+}
+
+
+.Scroll__Indicator a:hover {
+    color: rgba(179, 59, 125, 0.973);
+    font-weight: bold;
+}
