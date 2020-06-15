@@ -20,9 +20,9 @@ const ScrollIndicator = () => {
                 onMouseOver={() => shouldShow(true)}
                 >
             <div style={linksContainerStyle()}>
-                <a style={linkStyle} href='#ProjectsMarker'>Projects</a>
-                <a style={linkStyle} href='#'>CV</a>
-                <a style={linkStyle} href='#AboutPageMarker'>About</a>
+                <a style={linkStyle} href='#Projects'>Projects</a>
+                <a style={linkStyle} href='#CV'>CV</a>
+                <a style={linkStyle} href='#AboutPage'>About</a>
             </div>
 
             <div style={scrollIndicatorStyle} className='animate__animated animate__bounce animate__delay-2s'>

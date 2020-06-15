@@ -41,7 +41,7 @@ const AboutCard = () => {
             </div>
 
             <div style={ImgContainerStyle}>
-                <img width='100%' src='/img/Profile_Expanded.svg'></img>
+                <img alt='Profile Pic' width='100%' src='/img/Profile_Expanded.svg'></img>
             </div>
         </div>
 );

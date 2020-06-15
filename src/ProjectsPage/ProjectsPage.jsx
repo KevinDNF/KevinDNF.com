@@ -1,18 +1,24 @@
-import React, { useState } from 'react';
-import ProjectCard from '../ProjectCard/ProjectCard'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
-import "animate.css/animate.css"
+import React from 'react';
+import ProjectCard from '../ProjectCard/ProjectCard';
+import Projects from './Projects';
+import "animate.css/animate.css";
 
 const ProjectsPage = () => {
     const ProjectsPageMainStyle = {
         padding: '3em',
         backgroundColor: '#FFBDD9',
+        display: 'flex',
+        flexDirection: 'row',
+        overflow: 'auto',
     }
 
     return( 
-        <div id='ProjectsMarker' style={ProjectsPageMainStyle}>
-            <ProjectCard />
+        <div id='Projects' style={ProjectsPageMainStyle}>
+            {
+            Projects.map(({title, body, imgSrc}) => ( 
+                <ProjectCard title={title} body={body} imgSrc={imgSrc} />
+            ))
+            }
         </div>
     );
 }

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import AvatarDescription from '../AvatarDescription/AvatarDescription'
 import ScrollIndicator from '../ScrollIndicator/ScrollIndicator'
 

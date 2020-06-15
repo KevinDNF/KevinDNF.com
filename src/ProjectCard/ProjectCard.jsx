@@ -1,6 +1,10 @@
 import React from 'react';
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
+    const {title, body, imgSrc} = props;
+    console.log(title);
+
+
     const MainContainerStyle = {
         backgroundColor: 'white',
         padding: '3em',
@@ -8,7 +12,9 @@ const ProjectCard = () => {
         borderRadius: '0.5em',
         minHeight: '200px',
         display: 'flex',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        minWidth: '80%',
+        marginRight: '3em',
     }
 
     const ImgContainerStyle = {
@@ -23,11 +29,11 @@ const ProjectCard = () => {
     return( 
     <div style={MainContainerStyle}>
         <div style={ImgContainerStyle}>
-            <img width='100%' src='/img/astrodroid.png'></img>
+            <img alt={title} width='100%' src={'/img/' + imgSrc}></img>
         </div>
         <div style={ContentContainerStyle}>
-            <h2 style={{marginTop: '0'}} >Astrodroid</h2>
-            Astrodroid is a game.
+        <h2 style={{marginTop: '0'}} >{title}</h2>
+        {body}
         </div>
     </div>);
 }

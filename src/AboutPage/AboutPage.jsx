@@ -8,7 +8,7 @@ const AboutPage = () => {
     }
 
     return (
-    <div id='AboutPageMarker' style={AboutPageMainStyle}>
+    <div id='AboutPage' style={AboutPageMainStyle}>
         <AboutCard />
     </div>
     );

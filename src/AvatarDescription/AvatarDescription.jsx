@@ -4,7 +4,7 @@ export class AvatarDescription extends Component {
     render() {
         return (
             <div style={MainStyle}>
-                <img src='/img/profile.svg' style={ImgStyle}></img>
+                <img alt='Profile Pic' src='/img/profile.svg' style={ImgStyle}></img>
                 <div>
                     <div style={TitleStyle}>kevindnf.</div>
                     <div style={SubtitleStyle}>web, IOS, game development</div>
