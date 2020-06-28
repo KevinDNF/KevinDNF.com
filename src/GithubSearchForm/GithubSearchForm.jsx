@@ -43,7 +43,6 @@ class Form extends Component {
                 value={this.state.userName}
                 onChange={this.hanldeOnChange}
                  required
-                 type="text"
                  placeholder="Github Username" />
                 <button style={SubmitBtn}>Add card</button>
             </form>
