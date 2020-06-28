@@ -1,5 +1,17 @@
 let Projects = [
     {
+        title: "React Projects",
+        body: "A collection of small react projects created to learn react"
+    },
+    {
+        title: "Decomposition (Game)",
+        body: "A game"
+    },
+    {
+        title: "Run Pack & Jam (Game)",
+        body: "A game"
+    },
+    {
         title: "Facebook Message Generator",
         body: "A msg generator",
         imgSrc: "msg_gen.jpg"

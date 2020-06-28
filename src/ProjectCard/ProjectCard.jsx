@@ -19,6 +19,7 @@ const ProjectCard = (props) => {
 
     const ImgContainerStyle = {
         flex: '1 80%',
+        display : imgSrc === undefined ? "none" : "" ,
     }
 
     const ContentContainerStyle = {
