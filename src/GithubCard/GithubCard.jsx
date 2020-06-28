@@ -5,7 +5,7 @@ class GithubCard extends Component {
         const profile = this.props;
         return (
             <a href={profile.html_url} style={cardStyle}>
-                <img alt={`${profile.name} Profile Image`} style={imgStyle} src={profile.avatar_url}></img>
+                <img alt={`${profile.name} Profile`} style={imgStyle} src={profile.avatar_url}></img>
                 <div style={infoStyle} >
                 <div style={titleStyle}>{profile.name}</div>
                 <div style={companyStyle}>{profile.company}</div>
