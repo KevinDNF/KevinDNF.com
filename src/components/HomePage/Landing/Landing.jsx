@@ -2,7 +2,7 @@ import React from 'react';
 import AvatarDescription from '../AvatarDescription/AvatarDescription'
 import ScrollIndicator from '../ScrollIndicator/ScrollIndicator'
 
-const HomePage = () => {
+const Landing = () => {
     return( 
     <div style={homeStyle}>
         <AvatarDescription />
@@ -27,4 +27,4 @@ const homeStyle = {
     alignItems: 'center'
 }
 
-export default HomePage;
+export default Landing;

@@ -1,18 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import HomePage from './HomePage/HomePage';
-import ProjectPage from './ProjectsPage/ProjectsPage';
-import AboutPage from './AboutPage/AboutPage';
-
-import ReactProjects from './ReactProjects/ReactProjects';
+import App from './components/App';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HomePage />
-    <ProjectPage />
-    <AboutPage />
-    <ReactProjects />
+    <Router>
+      <App />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

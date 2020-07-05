@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import Projects from './Projects';
-import "./node_modules/animate.css/animate.css";
+import "animate.css/animate.css";
 
 const ProjectsPage = () => {
     const ProjectsPageMainStyle = {
